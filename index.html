@@ -1,8 +1,28 @@
+<!DOCTYPE html>
 <html>
-  <head>
-  </head>
-    <body>
-      Test
-    </body>
-
+<head>
+    <title>스트리트 브랜드 제네레이터</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>스트리트 브랜드 제네레이터</h1>
+    <div>
+        <label for="keyword1">키워드 1:</label>
+        <input type="text" id="keyword1">
+    </div>
+    <div>
+        <label for="keyword2">키워드 2:</label>
+        <input type="text" id="keyword2">
+    </div>
+    <div>
+        <label for="keyword3">키워드 3:</label>
+        <input type="text" id="keyword3">
+    </div>
+    <button onclick="generateBrandName()">브랜드 생성</button>
+    <div id="brandName"></div>
+    <div id="logo"></div>
+    <div id="symbol"></div>
+    <button onclick="downloadLogo()">고화질 다운로드</button>
+</body>
 </html>
